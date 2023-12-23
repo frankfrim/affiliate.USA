@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+    <!--<![endif]-->
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <title>Juna Store</title>
+        
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- [favicon] end --> 
+        
+        <!-- CSS Main -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 960px)" href="css/lessthen960.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/lessthen600.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/lessthen480.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/memento.css"  />
+        
+        <!-- CSS Plugin -->
+        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/tipsy.css" type="text/css" media="all" />
+        <link rel='stylesheet' href='css/buttons.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/labels.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/wells.min.css' type='text/css' media='all' />
+        
+        <!-- CSS Slider -->
+        <link rel="stylesheet" href="css/slider-thumbnails.css" type="text/css" media="all" />
+        
+        <link rel="stylesheet" type="text/css" media="all" href="css/homes/home.css" />
+        <link rel='stylesheet' href='css/layerslider.css' type='text/css' media='all' />
+        
+
+        <!-- FONTS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans&amp;subset=latin%2Ccyrillic%2Cgreek&amp;ver=3.4.1" type="text/css" media="all" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light&amp;subset=latin%2Ccyrillic%2Cgreek&amp;ver=3.4.1" type="text/css" media="all" />
+        <link rel='stylesheet' href='http://yourinspirationweb.com/demo/memento/wp-content/themes/memento/core/includes/css/font-awesome.css?ver=3.4.1' type='text/css' media='all' />
+        <link rel='stylesheet' href='http://yourinspirationweb.com/demo/memento/wp-content/themes/memento/fonts/socialico/stylesheet.css?ver=3.4.1' type='text/css' media='all' />
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%7CPlayfair+Display%3A400italic&#038;ver=3.4.1' type='text/css' media='all' />
+        
+        <!-- JavaScripts -->
+        <script type="text/javascript">
+            var yiw_prettyphoto_style = 'pp_default';
+        </script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+        <script type="text/javascript" src="js/jquery.tweetable.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+        <script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+        <script type="text/javascript" src="js/superfish.js"></script>
+        <script type='text/javascript' src="js/jquery.eislideshow.js"></script>
+        <script type='text/javascript' src="js/swfobject.js"></script>
+        <script type='text/javascript' src='js/jquery.cookie.js'></script>
+        <script type='text/javascript' src='js/buttons.min.js'></script>
+        <script type='text/javascript' src='js/layerslider.kreaturamedia.jquery-min.js'></script>
+        <script type='text/javascript' src='js/jquery.quicksand.js'></script>
+        
+    </head>
+    <body class="no_js responsive boxed-layout chrome ">
+        
+        <!-- TOPBAR -->
+        <div id="topbar">
+            <div class="inner group">
+                
+                <div class="topbar-left">
+                    <!-- START TWITTER -->
+                    <div id="twitter-slider" class="group">
+                        <div class="tweets-list"></div>
+                        <script type="text/javascript" src="js/twitter.js" ></script>	
+                    </div>
+                    <!-- END TWITTER -->
+                </div>
+
+                <style>
+                       * html .nav-bb {
+      margin: 0 -500px;
+    }
+    
+    .nav-bb * {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    
+    .nav-bb a {
+      display: block;
+      position: relative;
+      float: none;
+      top: 25px;
+      font-family: arial, sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+      padding: 0 7px;
+      color: #FFF;
+      line-height: 15px;
+      height: 15px;
+    }
+    
+    .nav-bb a:hover {
+      color: #e47911;
+      text-decoration: underline;
+    }
+    
+    .nav-bb #nav-bb-logo {
+      display: block;
+      position: relative;
+      float: none;
+      top: 0;
+      width: 90px;
+      height: 35px;
+      margin: 0 20px 0 10px;
+      padding: 0;
+      text-indent: -999px;
+    }
+    
+    .nav-bb form {
+      display: flex;
+      position: relative;
+      float: none;
+      top: 10;
+      width: 70%;
+      height: 33px;
+      margin: 0;
+    }
+    
+    .nav-bb-search-wrapper {
+      display: block;
+      position: relative;
+      float: none;
+      top: 0;
+      left: 0;
+      height: 31px;
+      width: 70%;
+      padding: 0;
+      -webkit-border-radius: 3px 0 0 3px;
+      -moz-border-radius: 3px 0 0 3px;
+      border-radius: 3px 0 0 3px;
+      background: #fff;
+    }
+    
+    html[dir="rtl"] .nav-bb-search-wrapper {
+      -webkit-border-radius: 0 3px 3px 0;
+      -moz-border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0;
+    }
+    
+    #nav-bb-search, #nav-bb-search:focus {
+      margin: 7px 0 0;
+      width: 100%;
+      height: 16px;
+      padding: 0px 0px 0px 7px;
+      border: 0px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      outline: none 0;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+    
+    .nav-bb-button {
+      display: block;
+      position: relative;
+      float: none;
+      height: 31px;
+      margin: 0;
+      border: none;
+      background: #FEBD69;
+      color: #232F3E;
+      font-size: 13px;
+      font-weight: bold;
+      padding: 0 9px;
+      cursor: pointer;
+      -webkit-border-radius: 0 3px 3px 0;
+      -moz-border-radius: 0 3px 3px 0;
+      border-radius: 0 3px 3px 0;
+      outline: none 0;
+    }
+    
+    html[dir="rtl"] .nav-bb-button {
+      -webkit-border-radius: 3px 0 0 3px;
+      -moz-border-radius: 3px 0 0 3px;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .nav-bb-button:hover {
+      background: #F3A847;
+    }
+    
+    .nav-bb-lr-divider {
+      border-left: 1px solid #405166;
+      border-right: 1px solid #405166;
+    }
+    
+    #nav-bb-searchbar {
+      min-width: 400px;
+      margin: 0 20px;
+    }
+    
+    html.a-js body, html.a-no-js body,
+    html.a-js .site-stripe-margin-control, html.a-no-js .site-stripe-margin-control,
+    html.a-js #navbar-backup-backup, html.a-no-js #navbar-backup-backup {
+      margin: 0 !important;
+    }
+                </style>
+   
+                      <div class="nav-bb-center" id= "nav-bb-searchbar">
+                        <form method="get" action="https://www.amazon.com/s/ref=nav_bb_sb" name="site-search" role="search" accept-charset="utf-8">
+                          <div class="nav-bb-center">
+                            <div class="nav-bb-search-wrapper">
+                              <input type="text" id="nav-bb-search" title="Search For" value="" name="field-keywords" autocomplete="on" placeholder="Search Juna Store" />
+                            </div>
+                          </div>
+                          <input type="submit" value="Juna It" title="Go" class="nav-bb-button" />
+                        </form>
+                      </div>
+                <div class="topbar-right">
+                    <ul class="topbar-level-1">
+                        <li>
+                            <a href="#">Top bar menu</a>
+                            <ul class="sub-menu">
+                                <li><a href="kyc.html">KYC</a></li>
+                                <li><a href="sell.html"><i class="icon-home"></i>Sell here</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html"><i class="icon-envelope"></i> Mail us</a></li>
+                        <li class="login_link"><i class="icon-key"></i><a href="users-profile.html">Log in</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <!-- END TOPBAR -->
+        
+        <!-- START WRAPPER -->
+        <div class="wrapper group">
+            <!-- START HEADER -->
+            <div id="header" class="group">
+                <div class="group inner">
+                    
+                    <!-- START LOGO -->
+                    <div id="logo" class="group">
+                        <h1>
+                            <a class="logo-text" href="index.html" title="Mem&eacute;nto">Ju<span>na</span>Store</a>                        
+                        </h1>
+                        <p>Affiliate & Shop here</p>
+                    </div>
+                    <!-- END LOGO -->  
+                    <!-- START NAV -->
+                    <div id="nav" class="group">
+                        <ul id="menu-main-nav" class="level-1">
+                            
+                       
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                    <!-- END NAV -->     
+                </div>
+            </div>
+            <!-- END HEADER -->
+        
+            <!-- SLIDER -->
+			<!-- START SLIDER -->
+			<div id="slider" class="layers-slider">
+			    <div class="shadowWrapper">
+			        <div id="layerslider_1" style="margin: 0px auto; width: 1000px; height: 380px; ">
+			            <div class="ls-layer" style="background-image: url(images/slider-parallax/bg.jpg );slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+			            	<img class="ls-s1" src="images/slider-parallax/023.png" alt="sublayer" style="position: absolute; top: 180px; left: 60px; slidedirection : left; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 2000; durationout : 1500; easingin : easeOutBounce; easingout : easeInOutQuint; delayin : 100; delayout : 0;" />
+			            	<a href="#" target="_self" class="ls-s3" style="position: absolute; top: 330px; left:128px; slidedirection : left; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 2000; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 150; delayout : 0;"><img src="images/slider-parallax/033.png" alt="sublayer" /></a>
+			            	<img class="ls-s4" src="images/slider-parallax/012.png" alt="sublayer" style="position: absolute; top: 60px; left: 500px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1000; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0;" />
+			            </div>
+			            <div class="ls-layer" style="background-image: url(images/slider-parallax/bg2.jpg );slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+			            	<img class="ls-s2" src="images/slider-parallax/013.png" alt="sublayer" style="position: absolute; top: 40px; left: 60px; slidedirection : left; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 2500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s3" src="images/slider-parallax/024.png" alt="sublayer" style="position: absolute; top: 100px; left: 530px; slidedirection : bottom; slideoutdirection : bottom; parallaxin : .45; parallaxout : .45; durationin : 300; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 800; delayout : 0;" />
+			            	<img class="ls-s5" src="images/slider-parallax/034.png" alt="sublayer" style="position: absolute; top: 186px; left: 650px; slidedirection : bottom; slideoutdirection : bottom; parallaxin : .45; parallaxout : .45; durationin : 300; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 850; delayout : 0;" />
+			            	<a href="#" target="_self" class="ls-s1" style="position: absolute; top: 240px; left:530px; slidedirection : bottom; slideoutdirection : bottom; parallaxin : .45; parallaxout : .45; durationin : 300; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 900; delayout : 0;"><img src="images/slider-parallax/042.png" alt="sublayer" /></a>
+			            </div>
+			            <div class="ls-layer" style="background-image: url(images/slider-parallax/l3.jpg );slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0;">
+			            	<img class="ls-s1" src="images/slider-parallax/l31.png" alt="sublayer" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 5800; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s3" src="images/slider-parallax/l32.png" alt="sublayer" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 5600; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s5" src="images/slider-parallax/l33.png" alt="sublayer" style="position: absolute; top: -20px; left: -32px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1200; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s7" src="images/slider-parallax/l34.png" alt="sublayer" style="position: absolute; top: -53px; left: 12px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1350; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s9" src="images/slider-parallax/l36.png" alt="sublayer" style="position: absolute; top: -69px; left: 14px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 4000; durationout : 800; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 50;" />
+			            	<img class="ls-s11" src="images/slider-parallax/l35.png" alt="sublayer" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 5000; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 100;" />
+			            	<img class="ls-s13" src="images/slider-parallax/l37.png" alt="sublayer" style="position: absolute; top: -114px; left: -56px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s15" src="images/slider-parallax/l38.png" alt="sublayer" style="position: absolute; top: -124px; left: -55px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s17" src="images/slider-parallax/l39.png" alt="sublayer" style="position: absolute; top: -132px; left: -55px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s19" src="images/slider-parallax/l310.png" alt="sublayer" style="position: absolute; top: -110px; left: -15px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            	<img class="ls-s21" src="images/slider-parallax/l311.png" alt="sublayer" style="position: absolute; top: -113px; left: -15px; slidedirection : right; slideoutdirection : left; parallaxin : .45; parallaxout : .45; durationin : 1500; durationout : 1500; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0;" />
+			            </div>
+			        </div>
+			        <div class="shadow-left"></div>
+			        <div class="shadow-right"></div>
+			    </div>
+			</div>
+			<!-- END SLIDER -->
+			<script type="text/javascript" src="js/layer-slider.js"></script>
+			<!-- /SLIDER -->
+			
+			<div id="primary" class="layout-sidebar-no home-section">
+			    <div class="inner group">
+			        <!-- START CONTENT -->
+			        <div id="content" class="group">
+			            <div class="page type-page status-publish hentry group">
+			                
+			                <div class="one-fourth">
+			                    <h4>G.I. Joe Classified Series</h4>
+			                    <p><img title="G.I. Joe Classified Series" src="homes/Capture1.PNG" alt="G.I. Joe Classified Series" width="220" height="81" /></p>
+			                     <a href="https://www.amazon.com/Joe-Classified-Techno-Viper-Collectible-Accessories/dp/B0CFZ9S16N/ref=sr_1_2?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-2"><p>Techno-Viper, Collectible 6-Inch Action Figure with 8 Accessories
+                                    2K+ bought in past month
+                                    $24.99
+                                    Pre-order Price Guarantee.
+                                    Delivery Thu, Apr 11.</p></a>
+			                </div>
+			                
+			                <div class="one-fourth">
+			                    <h4>Baby Toys Infant Crawling Crab</h4>
+			                    <p><img title="Baby Toys Infant Crawling Crab" src="homes/Capture10.PNG" alt="Baby Toys Infant Crawling Crab" width="220" height="81" /></p>
+			                    <a href="https://www.amazon.com/Baby-Toys-Infant-Crawling-Crab/dp/B0B5XPFKC3/ref=sr_1_53?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-53"><p> Tummy Time Toy Gifts 3 4 5 6 7 8 9 10 11 12 Babies Boy Girl 3-6 6-12 Learning Crawl 9-12 12-18 Walking Toddler 36 Months Old Music Development Interactive Birthday Gift
+                                    4.3 out of 5 stars 3,810
+                                    50K+ bought in past month
+                                    $22.99 List:
+                                    $35.69
+                                    Save 5% on 2 select item(s)
+                                    Delivery Fri, Dec 29.</p></a>
+			                </div>
+			                
+			                <div class="one-fourth">
+			                    <h4>Sesame-Street Neighborhood Friends</h4>
+			                    <p><img title="Sesame-Street Neighborhood Friends" src="homes/Capture12.PNG" alt="Sesame-Street Neighborhood Friends" width="220" height="81" /></p>
+			                    <a href="https://www.amazon.com/Just-Play-Neighborhood-Figurines-Officially/dp/B0B7KPDZLB/ref=sr_1_54?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-54"><p>7-piece Poseable Figurines, Officially Licensed Kids Toys for Ages 2 Up by Just Play
+                                    4.8 out of 5 stars 305
+                                    4K+ bought in past month
+                                    $16.99
+                                    Delivery Thu, Dec 28.</p></a>
+			                </div>
+			                
+			                <div class="one-fourth last">
+			                    <h4>Learning Resources 3060</h4>
+			                    <p><img title="Learning Resources 3060" src="homes/Capture13.PNG" alt="Learning Resources 3060" width="220" height="81" /></p>
+			                    <a href="https://www.amazon.com/Learning-Resources-Farmers-Market-Sorting/dp/B006RQ8TY0/ref=sr_1_46?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-46"><p>Farmers Market Color Sorting Set
+                                    4.9 out of 5 stars 15,465
+                                    40K+ bought in past month
+                                    Limited time deal
+                                    $17.49 List:
+                                    $45.99
+                                    Delivery Fri, Dec 29.</p></a>
+			                </div>
+			                
+			            </div>
+			        </div>
+			        <!-- END CONTENT -->   
+			    </div>
+			</div>
+			<div class="clear"></div>
+			</div>     
+			<!-- END WRAPPER -->
+        
+<!-- START CONTENT -->
+<div id="content" class="group">
+    <div id="portfolio-gallery" class="internal_page_items internal_page_gallery">
+        <ul class="gallery-wrap image-grid group">
+            <li data-id="id-1" class="motion-graphics ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Aiefeya Nose Hair Trimmer for Men.html"><img width="208" height="168" src="products/71FkKo4bpEL._AC_UL160_SR160,160_.jpg" class="picture wp-post-image" alt="14" title="14" /></a>
+                    <div class="overlay">
+                        <h5><a href="Aiefeya Nose Hair Trimmer for Men.html">Aiefeya Nose Hair Trimmer for Men</a></h5>
+                        <p> Aiefeya Nose Hair Trimmer for Men, 2023 Professional Painless Eyebrow & Facial & Nose Hair Trimmer for Men
+                            4.6 out of 5 stars 232
+                            -25% $23.99$9.75 ($23.99/Count) List Price: Dec 21 $35.40 shipping </p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/71FkKo4bpEL._AC_UL160_SR160,160_.jpg" rel="prettyPhoto" title="Aiefeya Nose Hair Trimmer for Men">Zoom</a>
+                            <a class="icon-more" href="Aiefeya Nose Hair Trimmer for Men.html" title="Photo #14">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-2" class="brand-identity motion-graphics ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Ear and Nose Hair Trimmer Clipper.html"><img width="208" height="168" src="products/61qPYG8N+zL._AC_UL160_SR160,160_.jpg" class="picture wp-post-image" alt="13" title="13" /></a>
+                    <div class="overlay">
+                        <h5><a href="Ear and Nose Hair Trimmer Clipper.html">Ear and Nose Hair Trimmer Clipper</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/61qPYG8N+zL._AC_UL160_SR160,160_.jpg" rel="prettyPhoto" title="Ear and Nose Hair Trimmer Clipper">Zoom</a>
+                            <a class="icon-more" href="Ear and Nose Hair Trimmer Clipper.html" title="Photo #13">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-3" class="web-design ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20mouse&ref=nb_sb_noss_2&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" class="picture wp-post-image" alt="12" title="12" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20mouse&ref=nb_sb_noss_2&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Computer mice</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" rel="prettyPhoto" title="Photo #12">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20mouse&ref=nb_sb_noss_2&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Computer mice">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-4" class="motion-graphics web-design ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20headsets&ref=nb_sb_noss_2&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" class="picture wp-post-image" alt="11" title="11" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20headsets&ref=nb_sb_noss_2&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Headset</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" rel="prettyPhoto" title="Photo #11">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20headsets&ref=nb_sb_noss_2&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Headset">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-5" class="brand-identity ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20chairs&ref=nb_sb_noss&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg" class="picture wp-post-image" alt="10" title="10" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20chairs&ref=nb_sb_noss&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Chairs</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg" rel="prettyPhoto" title="Photo #10">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=gaming%20chairs&ref=nb_sb_noss&pd_rd_w=ZnhYi&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Chairs">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-6" class="web-design ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=Shoes&rh=p_36%3A-5000&crid=1QEZIUFPCL3YZ&qid=1684823927&rnid=2661611011&sprefix=shoes%2Caps%2C145&ref=sr_nr_p_36_5&pd_rd_w=X9WNs&content-id=amzn1.sym.b0c3902d-ae70-4b80-8f54-4d0a3246745a&pf_rd_p=b0c3902d-ae70-4b80-8f54-4d0a3246745a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg" class="picture wp-post-image" alt="9" title="9" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=Shoes&rh=p_36%3A-5000&crid=1QEZIUFPCL3YZ&qid=1684823927&rnid=2661611011&sprefix=shoes%2Caps%2C145&ref=sr_nr_p_36_5&pd_rd_w=X9WNs&content-id=amzn1.sym.b0c3902d-ae70-4b80-8f54-4d0a3246745a&pf_rd_p=b0c3902d-ae70-4b80-8f54-4d0a3246745a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Shoes under $50</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg" rel="prettyPhoto" title="Photo #9">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=Shoes&rh=p_36%3A-5000&crid=1QEZIUFPCL3YZ&qid=1684823927&rnid=2661611011&sprefix=shoes%2Caps%2C145&ref=sr_nr_p_36_5&pd_rd_w=X9WNs&content-id=amzn1.sym.b0c3902d-ae70-4b80-8f54-4d0a3246745a&pf_rd_p=b0c3902d-ae70-4b80-8f54-4d0a3246745a&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Shoes under $50">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-7" class="brand-identity motion-graphics ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Home décor under $50.html"><img width="208" height="168" src="products/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg" class="picture wp-post-image" alt="Home décor under $50" title="Home décor under $50" /></a>
+                    <div class="overlay">
+                        <h5><a href="Home décor under $50.html">Home décor under $50</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg" rel="prettyPhoto" title="Home décor under $50">Zoom</a>
+                            <a class="icon-more" href="Home décor under $50.html" title="Home décor under $50">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-8" class="motion-graphics web-design ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Beauty steals under $25.html"><img width="208" height="168" src="products/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg" class="picture wp-post-image" alt="Beauty steals under $25" title="Beauty steals under $25" /></a>
+                    <div class="overlay">
+                        <h5><a href="Beauty steals under $25.html">Beauty steals under $25</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg" rel="prettyPhoto" title="Beauty steals under $25">Zoom</a>
+                            <a class="icon-more" href="Beauty steals under $25.html" title="Beauty steals under $25">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-9" class="motion-graphics ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Toys under $25.html"><img width="208" height="168" src="products/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg" class="picture wp-post-image" alt="Toys for kids" title="6" /></a>
+                    <div class="overlay">
+                        <h5><a href="Toys under $25.html">Toys under $25</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg" rel="prettyPhoto" title="Toys for kids">Zoom</a>
+                            <a class="icon-more" href="Toys under $25.html" title="Toys under $25">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-10" class="motion-graphics web-design ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Personal Care under $25.html"><img width="208" height="168" src="products/Fuji_Desktop_Single_image_EBF_1x_v10._SY304_CB573698005_.jpg" class="picture wp-post-image" alt="Personal Care under $25" title="Personal Care under $25" /></a>
+                    <div class="overlay">
+                        <h5><a href="Personal Care under $25.html">Personal Care under $25</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Desktop_Single_image_EBF_1x_v10._SY304_CB573698005_.jpg" rel="prettyPhoto" title="Personal Care under $25">Zoom</a>
+                            <a class="icon-more" href="Personal Care under $25.html" title="Personal Care under $25">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-11" class="brand-identity motion-graphics ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="Deals in PCs.html"><img width="208" height="168" src="products/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg" class="picture wp-post-image" alt="PCs" title="Deals in PCs" /></a>
+                    <div class="overlay">
+                        <h5><a href="Deals in PCs.html">Deals in PCs</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg" rel="prettyPhoto" title="Deals in PCs">Zoom</a>
+                            <a class="icon-more" href="Deals in PCs.html" title="Deals in PCs">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-12" class="brand-identity ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=Kitchen&i=kitchen-intl-ship&crid=2LRTV3593NEHX&sprefix=kitchen%2Ckitchen-intl-ship%2C202&ref=nb_sb_noss_1&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg" class="picture wp-post-image" alt="Kitchen" title="Kitchen" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=Kitchen&i=kitchen-intl-ship&crid=2LRTV3593NEHX&sprefix=kitchen%2Ckitchen-intl-ship%2C202&ref=nb_sb_noss_1&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Kitchen</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg" rel="prettyPhoto" title="Kitchen">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=Kitchen&i=kitchen-intl-ship&crid=2LRTV3593NEHX&sprefix=kitchen%2Ckitchen-intl-ship%2C202&ref=nb_sb_noss_1&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Kitchen">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-13" class="web-design ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=Home&i=kitchen-intl-ship&crid=1QBODY970JKYC&sprefix=home%2Ckitchen-intl-ship%2C164&ref=nb_sb_noss_1&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg" class="picture wp-post-image" alt="Home" title="Home" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=Home&i=kitchen-intl-ship&crid=1QBODY970JKYC&sprefix=home%2Ckitchen-intl-ship%2C164&ref=nb_sb_noss_1&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Home</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg" rel="prettyPhoto" title="Home">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=Home&i=kitchen-intl-ship&crid=1QBODY970JKYC&sprefix=home%2Ckitchen-intl-ship%2C164&ref=nb_sb_noss_1&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Home">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-id="id-14" class="motion-graphics ">
+                <div class="internal_page_item internal_page_item_gallery">
+                    <a href="https://www.amazon.com/s/?_encoding=UTF8&k=health%20and%20beauty&i=beauty-intl-ship&crid=2036DM6EKNYNA&sprefix=health%20and%20beauty%2Cbeauty-intl-ship%2C173&ref=nb_sb_noss_2&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk"><img width="208" height="168" src="products/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg" class="picture wp-post-image" alt="Health & Beauty" title="Health & Beauty" /></a>
+                    <div class="overlay">
+                        <h5><a href="https://www.amazon.com/s/?_encoding=UTF8&k=health%20and%20beauty&i=beauty-intl-ship&crid=2036DM6EKNYNA&sprefix=health%20and%20beauty%2Cbeauty-intl-ship%2C173&ref=nb_sb_noss_2&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk">Health & Beauty</a></h5>
+                        <p></p>
+                        <div class="controls">
+                            <a class="icon-zoom" href="products/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg" rel="prettyPhoto" title="Health & Beauty">Zoom</a>
+                            <a class="icon-more" href="https://www.amazon.com/s/?_encoding=UTF8&k=health%20and%20beauty&i=beauty-intl-ship&crid=2036DM6EKNYNA&sprefix=health%20and%20beauty%2Cbeauty-intl-ship%2C173&ref=nb_sb_noss_2&pd_rd_w=6PzWP&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=75ACBC8FB80DESBJDEMJ&pd_rd_wg=MVWMV&pd_rd_r=525a5889-5b00-4b28-8dca-2722e3adf22e&ref_=pd_gw_unk" title="Health & Beauty">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<!-- END CONTENT -->    
+</div>
+</div>
+<div class="clear"></div>
+</div>    
+
+			            <div class="portfolio-slider">
+			                <ul>
+			                    <li class="post-566">
+			                      <link rel="import" href="https://google.com">  <a class="thumb img" href="portfolio/Capture10.PNG" rel="prettyPhoto[Web Design]" title="Baby Toys Infant Crawling Crab"><img width="205" height="118" src="portfolio/Capture10-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Baby Toys Infant Crawling Crab" title="Baby Toys Infant Crawling Crab" /></a>
+			                    </li>
+			                    <li class="post-113">
+			                        <a class="thumb img" href="portfolio/Capture12.PNG" rel="prettyPhoto[Web Design]" title="Sesame-Street Neighborhood Friends"><img width="205" height="118" src="portfolio/Capture12-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Sesame-Street Neighborhood Friends" title="Sesame-Street Neighborhood Friends" /></a>
+			                    </li>
+			                    <li class="post-116">
+			                        <a class="thumb img" href="portfolio/Capture13.PNG" rel="prettyPhoto[Web Design]" title="Learning Resources 3060 Farmers Market Color Sorting Set"><img width="205" height="118" src="portfolio/Capture13-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Learning Resources 3060 Farmers Market Color Sorting Set" title="Learning Resources 3060 Farmers Market Color Sorting Set" /></a>
+			                    </li>
+			                    <li class="post-131">
+			                        <a class="thumb img" href="portfolio/Capture14.PNG" rel="prettyPhoto[Web Design]" title="EVERDAZZ Busy Board Montessori Toy for 1 2 3 4 Years Old"><img width="205" height="118" src="portfolio/Capture14-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="EVERDAZZ Busy Board Montessori Toy for 1 2 3 4 Years Old" title="EVERDAZZ Busy Board Montessori Toy for 1 2 3 4 Years Old" /></a>
+			                    </li>
+			                    <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture15.PNG" rel="prettyPhoto[Web Design]" title="McFarlane Toys"><img width="205" height="118" src="portfolio/Capture15-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="McFarlane Toys" title="McFarlane Toys" /></a>
+			                    </li>
+			                    <li class="post-118">
+			                        <a class="thumb img" href="portfolio/Capture16.PNG" rel="prettyPhoto[Web Design]" title="Diverso WordPress theme"><img width="205" height="118" src="portfolio/Capture16-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="8-in-1 Wooden Montessori Baby Toys" title="8-in-1 Wooden Montessori Baby Toys" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture17.PNG" rel="prettyPhoto[Web Design]" title="8-in-1 Wooden Montessori Baby Toys"><img width="205" height="118" src="portfolio/Capture17-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="xa-700x295" title="xa-700x295" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture18.PNG" rel="prettyPhoto[Web Design]" title="G.I. Joe Classified Series Retro Cardback Duke"><img width="205" height="118" src="portfolio/Capture18-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="G.I. Joe Classified Series Retro Cardback Duke" title="G.I. Joe Classified Series Retro Cardback Duke" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture19.PNG" rel="prettyPhoto[Web Design]" title="Bravmate Wooden Activity Cube | 8-in-1 Montessori Toys for 12M+ Toddlers"><img width="205" height="118" src="portfolio/Capture19-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Bravmate Wooden Activity Cube | 8-in-1 Montessori Toys for 12M+ Toddlers" title="Bravmate Wooden Activity Cube | 8-in-1 Montessori Toys for 12M+ Toddlers" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture23.PNG" rel="prettyPhoto[Web Design]" title="Gaming Keyboard and Mouse and Mouse pad and Gaming Headset"><img width="205" height="118" src="portfolio/Capture23-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Gaming Keyboard and Mouse and Mouse pad and Gaming Headset" title="Gaming Keyboard and Mouse and Mouse pad and Gaming Headset" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture6.PNG" rel="prettyPhoto[Web Design]" title="Girls Boys 10 Writing Pad for Kids for Preschool Learning*Toys"><img width="205" height="118" src="portfolio/Capture6-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Girls Boys 10 Writing Pad for Kids for Preschool Learning*Toys" title="Girls Boys 10 Writing Pad for Kids for Preschool Learning*Toys" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture7.PNG" rel="prettyPhoto[Web Design]" title="Furby Furblets Pix-Elle Mini Friend"><img width="205" height="118" src="portfolio/Capture7-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Furby Furblets Pix-Elle Mini Friend" title="Furby Furblets Pix-Elle Mini Friend" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture8.PNG" rel="prettyPhoto[Web Design]" title="Crawling Baby Toys"><img width="205" height="118" src="portfolio/Capture8-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Crawling Baby Toys" title="Crawling Baby Toys" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture9.PNG" rel="prettyPhoto[Web Design]" title="Squishmallows 10 Caedia The Blue Cow Valentines Day Plush"><img width="205" height="118" src="portfolio/Capture9-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Squishmallows 10 Caedia The Blue Cow Valentines Day Plush" title="Squishmallows 10 Caedia The Blue Cow Valentines Day Plush" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture10.PNG" rel="prettyPhoto[Web Design]" title="Baby Toys Infant Crawling Crab"><img width="205" height="118" src="portfolio/Capture10-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="Baby Toys Infant Crawling Crab" title="Baby Toys Infant Crawling Crab" /></a>
+			                    </li>
+                                <li class="post-138">
+			                        <a class="thumb img" href="portfolio/Capture15.PNG" rel="prettyPhoto[Web Design]" title="McFarlane Toys"><img width="205" height="118" src="portfolio/Capture15-0.PNG" class="attachment-thumb_portfolio_slider wp-post-image" alt="McFarlane Toys" title="McFarlane Toys" /></a>
+			                    </li></a>
+			                </ul>
+			            </div>
+			            <div class="clear"></div>
+			            <script src="js/jquery.jcarousel.min.js" type="text/javascript" charset="utf-8"></script>
+			            <script type="text/javascript">
+			                jQuery(document).ready(function() {
+			                    jQuery('.portfolio-slider').jcarousel({
+			                        scroll: 1
+			                    });
+			                });
+			            </script>
+			        </div>
+			        <!-- END CONTENT -->        
+			    </div>
+			</div>
+			<div class="clear"></div>
+		</div>     
+		<!-- END WRAPPER -->
+
+ <!-- SLIDER -->
+         
+ <div id="slider" class="inner flash">
+    <div id="piecemaker"></div>
+</div>               
+
+<script type="text/javascript">
+    var flashvars = {};
+    flashvars.cssSource = "css/piecemaker/piecemaker.css";
+    flashvars.xmlSource = "css/piecemaker/piecemaker.xml";
+
+    var flash_params = {};
+    flash_params.play = "true";
+    flash_params.menu = "false";
+    flash_params.scale = "showall";
+    flash_params.wmode = "transparent";
+    flash_params.allowfullscreen = "true";
+    flash_params.allowscriptaccess = "always";
+    flash_params.allownetworking = "all";
+
+    swfobject.embedSWF('css/piecemaker/piecemaker.swf', 'piecemaker', '1000', '400', '0', null, flashvars, flash_params, null);
+
+</script>
+<!-- /SLIDER -->
+
+<div class="inner home-portfolio home-services home-section group">
+    <h2>Juna <span>Store</span></h2>
+    <div class="hentry-post group first">
+        <div class="thumb-img"><a href="Techno-Viper.html" title="G.I. Joe Classified Series #117" class="title"><img width="208" height="168" src="portfolio/Capture1.PNG" class="attachment-thumb_filterable wp-post-image" alt="G.I. Joe Classified Series #117" title="G.I. Joe Classified Series #117" /></a></div>
+        <h3><a href="Techno-Viper.html" title="G.I. Joe Classified Series #117" class="title">G.I. Joe Classified Series #117</a></h3>
+        <p>Techno-Viper, Collectible 6-Inch Action Figure with 8 Accessories
+            2K+ bought in past month
+            $24.99
+            Pre-order Price Guarantee.
+            Delivery Thu, Apr 11.</p>
+        <p><a href="Techno-Viper.html" class="btn btn-retro-package-3 btn-more-link"><i class="icon-list" style="font-size: 14px;"></i>   Read more</a></p>
+    </div>
+    <div class="hentry-post group">
+        <div class="thumb-img"><a href="G.I. Joe Classified Series.html" title="Turtle Beach Stealth 600 Gen 2 MAX Multiplatform Amplified Wireless Gaming Headset for Xbox Series X|S, Xbox One, PS5, PS4, Windows 10 & 11 PCs & Nintendo Switch" class="title"><img width="208" height="168" src="portfolio/Capture32.PNG" class="attachment-thumb_filterable wp-post-image" alt="Turtle Beach Stealth 600 Gen 2 MAX Multiplatform Amplified Wireless Gaming Headset for Xbox Series X|S, Xbox One, PS5, PS4, Windows 10 & 11 PCs & Nintendo Switch" title="Turtle Beach Stealth 600 Gen 2 MAX Multiplatform Amplified Wireless Gaming Headset for Xbox Series X|S, Xbox One, PS5, PS4, Windows 10 & 11 PCs & Nintendo Switch" /></a></div>
+        <h3><a href="G.I. Joe Classified Series.html" title="Turtle Beach Stealth 600 Gen 2 MAX Multiplatform Amplified Wireless Gaming Headset for Xbox Series X|S, Xbox One, PS5, PS4, Windows 10 & 11 PCs & Nintendo Switch" class="title">Turtle Beach Stealth 600 Gen 2 MAX Multiplatform Amplified Wireless Gaming Headset for Xbox Series X|S, Xbox One, PS5, PS4, Windows 10 & 11 PCs & Nintendo Switch</a></h3>
+        <p>- 48+ Hour Battery - Black
+            May 8, 2022 | by Turtle Beach
+            4.3 out of 5 stars 1,904
+            10K+ bought in past month
+            Multiplatform
+            Limited time deal
+            $99.95 List:
+            $119.99
+            Delivery Thu, Dec 28.</p>
+        <p><a href="G.I. Joe Classified Series.html" class="btn btn-retro-package-3 btn-more-link"><i class="icon-list" style="font-size: 14px;"></i>   Read more</a></p>
+    </div>
+    <div class="hentry-post group">
+        <div class="thumb-img"><a href="G.I. Joe Classified Series.html" title="Wireless Keyboard and Mouse Combo" class="title"><img width="208" height="168" src="portfolio/Capture30-0.PNG" class="attachment-thumb_filterable wp-post-image" alt="Wireless Keyboard and Mouse Combo" title="Wireless Keyboard and Mouse Combo" /></a></div>
+        <h3><a href="G.I. Joe Classified Series.html" title="Wireless Keyboard and Mouse Combo" class="title">Wireless Keyboard and Mouse Combo</a></h3>
+        <p>Ergonomic Full Size Typewriter Retro Round Keycaps Keyboard, Compatible with Windows, PC, Perfer for Home and Office Keyboards (Blue
+            4.4 out of 5 stars 477
+            100+ bought in past month
+            $39.99
+            Delivery Thu, Dec 28.</p>
+        <p><a href="G.I. Joe Classified Series.html" class="btn btn-retro-package-3 btn-more-link"><i class="icon-list" style="font-size: 14px;"></i>   Read more</a></p>
+    </div>
+    <div class="hentry-post group last">
+        <div class="thumb-img"><a href="LerBao 25 in 1 Die-cast Pull Back Construction Truck.html" title="LerBao 25 in 1 Die-cast Pull Back Construction Truck Vehicle Toy Set" class="title"><img width="208" height="168" src="portfolio/Capture4.PNG" class="attachment-thumb_filterable wp-post-image" alt="LerBao 25 in 1 Die-cast Pull Back Construction Truck Vehicle Toy Set" title="LerBao 25 in 1 Die-cast Pull Back Construction Truck Vehicle Toy Set" /></a></div>
+        <h3><a href="LerBao 25 in 1 Die-cast Pull Back Construction Truck.html" title="LerBao 25 in 1 Die-cast Pull Back Construction Truck Vehicle Toy Set" class="title">LerBao 25 in 1 Die-cast Pull Back Construction Truck Vehicle Toy Set</a></h3>
+        <p> Play Vehicles Set with Sounds and Lights in Carrier Truck, Age3+ Kids Child Boy Toy Car Gifts
+            4.5 out of 5 stars 49
+            1K+ bought in past month
+            $19.99
+            $51.09 delivery.</p>
+        <p><a href="LerBao 25 in 1 Die-cast Pull Back Construction Truck.html" class="btn btn-retro-package-3 btn-more-link"><i class="icon-list" style="font-size: 14px;"></i>   Read more</a></p>
+    </div>
+    </ul>
+</div>
+</div>
+<div class="inner home-testimonials home-section group">
+    <div class="title">
+        <h2><img src="images/icons/comment.png" alt="icon-adjust" /> People <span>love Juna Store</span></h2>
+        <p>feedback from our customers</p>
+    </div>
+    <ul class="list-testimonials" style="float: left;">
+        <li>
+            <p>I already given a 5-star rating, but I also wanted to provide my two cents in case anyone is unsure about purchasing this theme. Not only is the theme itself very versatile and easy to manipulate, but the support we get in the forum is amazing - <strong>Joy Mergot</strong> -</p>
+        </li>
+        <li>
+            <p>I am absolutely thrilled with this theme! I have never built a website before but your instructions and design make it both fun and easy to do - <strong>Elisa Meis</strong> -</p>
+        </li>
+        <li>
+            <p>Bookmark this theme as one of your “Must Haves for 2012” This theme is without a doubt one of our Top 5 Purchases. - <strong>Ricardo Mori</strong> -</p>
+        </li>
+        <li>
+            <p>I purchased this theme and I really like it. The theme authors have been very helpful in the support area of their website. - <strong>Erica Evans</strong> -</p>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        jQuery(function($){
+            $('.home-testimonials ul').width( 920 - $('.home-testimonials .title').outerWidth() - 20 );
+            $('.home-testimonials ul').cycle({
+                fx: 'scrollHorz',
+                speed: 600,
+                timeout: 8000            });
+        });
+    </script>	      
+</div>
+<div class="clear"></div>
+</div>     
+<!-- END WRAPPER -->
+        <div id="primary" class="layout-sidebar-right home-section">
+            <div class="inner group">
+                <!-- START CONTENT -->
+                <div id="content" class="group">
+                    <div class="clear"></div>
+                    
+                    <div class="post type-post status-publish format-standard hentry category-uncategorized hentry-post group blog-small">
+                        <div class="thumbnail">
+                            <img width="188" height="166" src="blog/Capture10.PNG" class="attachment-blog_small wp-post-image" alt="Baby Toys Infant Crawling Crab" title="Baby Toys Infant Crawling Crab" />                        
+                        </div>
+                        <h2 class="post-title"><a href="article.html">You may also like <span>these</span></a></h2>
+                        <div class="meta-bottom">
+                            <div class="meta group">
+                                <p class="date"><i class="icon-calendar"></i><span>Baby Toys Infant Crawling Crab</span></p>
+                                <p class="author"><i class="icon-user"></i> <span>other <a href="https://www.amazon.com/Baby-Toys-Infant-Crawling-Crab/dp/B0B5XPFKC3/ref=sr_1_53?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-53" title="Baby Toys Infant Crawling Crab" rel="author">Tummy Time Toy Gifts 3 4 5 6 7 8 9 10 11 12 Babies Boy Girl 3-6 6-12 Learning Crawl 9-12 12-18 Walking Toddler 36 Months Old Music Development Interactive Birthday Gift
+                                    4.3 out of 5 stars 3,810</a></span></p>
+                                <p class="categories"><i class="icon-tags"></i> <span>Details: <a href="https://www.amazon.com/Baby-Toys-Infant-Crawling-Crab/dp/B0B5XPFKC3/ref=sr_1_53?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-53" title="View all posts in Uncategorized" rel="category tag">50K+ bought in past month
+                                    $22.99 List:
+                                    $35.69
+                                    Save 5% on 2 select item(s)
+                                    Delivery Fri, Dec 29</a></span></p>
+                                <p class="comments"><i class="icon-comment"></i> <span><a href="article.html#comments" title="Comment on Another great article of the blog">2 comments</a></span></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post type-post status-publish format-standard hentry category-black-e-white tag-black-e-white hentry-post group blog-small">
+                        <div class="thumbnail">
+                            <img width="188" height="166" src="blog/Capture12.PNG" class="attachment-blog_small wp-post-image" alt="Sesame-Street Neighborhood Friends" title="Sesame-Street Neighborhood Friends" />                        
+                        </div>
+                        <h2 class="post-title"><a href="article.html">Sesame-Street Neighborhood Friends</a></h2>
+                        <div class="meta-bottom">
+                            <div class="meta group">
+                                <p class="date"><i class="icon-calendar"></i><span>7-piece Poseable Figurines, Officially Licensed Kids Toys for Ages 2 Up by Just Play</span></p>
+                                <p class="author"><i class="icon-user"></i> <span>Other <a href="https://www.amazon.com/Just-Play-Neighborhood-Figurines-Officially/dp/B0B7KPDZLB/ref=sr_1_54?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-54" title="Posts by Nicola Mustone" rel="author">4.8 out of 5 stars 305</a></span></p>
+                                <p class="categories"><i class="icon-tags"></i> <span>Details: <a href="https://www.amazon.com/Just-Play-Neighborhood-Figurines-Officially/dp/B0B7KPDZLB/ref=sr_1_54?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-54" title="View all posts in Uncategorized" rel="category tag">4K+ bought in past month
+                                    $16.99
+                                    Delivery Thu, Dec 28</a></span></p>
+                                <p class="comments"><i class="icon-comment"></i> <span><a href="article.html#respond" title="Comment on Fall in Love with M&egrave;mento theme!">No comments</a></span></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post type-post status-publish format-standard hentry category-black-e-white tag-black-e-white hentry-post group blog-small">
+                        <div class="thumbnail">
+                            <img width="188" height="166" src="blog/Capture13.PNG" class="attachment-blog_small wp-post-image" alt="Learning Resources 3060 Farmers Market Color Sorting Set" title="Learning Resources 3060 Farmers Market Color Sorting Set" />                        
+                        </div>
+                        <h2 class="post-title"><a href="article.html">Learning Resources 3060 Farmers Market Color Sorting Set</a></h2>
+                        <div class="meta-bottom">
+                            <div class="meta group">
+                                <p class="date"><i class="icon-calendar"></i><span>4.9 out of 5 stars 15,465</span></p>
+                                <p class="author"><i class="icon-user"></i> <span>otherr <a href="https://www.amazon.com/Learning-Resources-Farmers-Market-Sorting/dp/B006RQ8TY0/ref=sr_1_46?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-46" title="Posts by Nicola Mustone" rel="author">40K+ bought in past month</a></span></p>
+                                <p class="categories"><i class="icon-tags"></i> <span>Details: <a href="https://www.amazon.com/Learning-Resources-Farmers-Market-Sorting/dp/B006RQ8TY0/ref=sr_1_46?_encoding=UTF8&content-id=amzn1.sym.44da4965-9668-4613-bec2-a3a75f0c2ad4&keywords=toys&pd_rd_r=594ba3c2-7332-4fff-b8ad-74b69dd6db85&pd_rd_w=nlMAL&pd_rd_wg=kyUPV&pf_rd_p=44da4965-9668-4613-bec2-a3a75f0c2ad4&pf_rd_r=B447KR47YDQREKCVFJWN&qid=1702775484&refinements=p_36%3A-2500&sr=8-46" title="View all posts in Black e white" rel="category tag">Limited time deal
+                                    $17.49 List:
+                                    $45.99
+                                    Delivery Fri, Dec 29</a></span></p>
+                                <p class="comments"><i class="icon-comment"></i> <span><a href="article.html#respond" title="Comment on A fresh WordPress theme for your site">No comments</a></span></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="general-pagination group"><a href="#" class="selected">1</a><a href="#">2</a><a href="#">&rsaquo;</a></div>
+                    
+                </div>
+                <!-- END CONTENT -->
+
+            
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>     
+            <!-- END WRAPPER -->
+        <!-- START FOOTER -->
+        <div id="copyright" class="group">
+            <div class="inner group">
+                <div class="left">
+                    <p>
+                    	Copyright <a href="http://sallejuna.blogspot.com"><strong>Juna Store</strong></a> 2023
+                    	Powered by <a href="certified.txt" title="Affiliate and Shopping"><strong>Juna Liscense</strong></a>
+                    </p>
+                </div>
+                <div class="right">
+                    <a href="#" class="socials facebook" style="font-size:30px;" title="Affiliate">J</a>
+                    <a href="#" class="socials twitter" style="font-size:30px;" title="Buy">U</a>
+                    <a href="#" class="socials skype" style="font-size:30px;" title="Sell">N</a>
+                    <a href="#" class="socials google" style="font-size:30px;" title="Shop">A</a>
+                    <a href="#" class="socials linkedin" style="font-size:30px;" title="Quality">S</a>
+                    <a href="#" class="socials rss" style="font-size:30px;" title="Join">T</a>
+                    <a href="#" class="socials rss" style="font-size:30px;" title="Pay">O</a>
+                    <a href="#" class="socials rss" style="font-size:30px;" title="More">R</a>
+                    <a href="#" class="socials rss" style="font-size:30px;" title="Amazon">E</a>
+                    </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/jquery.custom.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36516261-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>		
+    </body>
+</html>

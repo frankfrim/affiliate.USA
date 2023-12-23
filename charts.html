@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>E-coin chain</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="asset/img/favicon.ico" rel="icon">
+  <link href="asset/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="quill/quill.snow.css" rel="stylesheet">
+  <link href="quill/quill.bubble.css" rel="stylesheet">
+  <link href="remixicon/remixicon.css" rel="stylesheet">
+  <link href="simple-datatables/style.css" rel="stylesheet">
+  <link href="asset/vendor/aos/aos.css" rel="stylesheet">
+  <link href="asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="asset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="asset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="asset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="asset/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="asset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" type="text/css" href="assets=/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="assets=/css/font-awesome.css">
+
+  <link rel="stylesheet" href="assets=/css/templatemo-hexashop.css">
+
+  <link rel="stylesheet" href="assets=/css/owl-carousel.css">
+
+  <link rel="stylesheet" href="assets=/css/lightbox.css">
+
+   <!-- Additional CSS Files -->
+   <link rel="stylesheet" href="css/fontawesome.css">
+   <link rel="stylesheet" href="css/templatemo-edu-meeting.css">
+   <link rel="stylesheet" href="css/owl.css">
+   <link rel="stylesheet" href="css/lightbox.css">
+
+ <!-- Bootstrap core CSS -->
+ <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap style --> 
+<link id="callCss" rel="stylesheet" href="themes/bootshop/bootstrap.min.css" media="screen"/>
+<link href="themes/css/base.css" rel="stylesheet" media="screen"/>
+<!-- Bootstrap style responsive -->	
+<link href="themes/css/bootstrap-responsive.min.css" rel="stylesheet"/>
+<link href="themes/css/font-awesome.css" rel="stylesheet" type="text/css">
+<!-- Google-code-prettify -->	
+<link href="themes/js/google-code-prettify/prettify.css" rel="stylesheet"/>
+<!-- fav and touch icons -->
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="themes/images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="themes/images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="themes/images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="themes/images/ico/apple-touch-icon-57-precomposed.png">
+<style type="text/css" id="enject"></style>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="css/owl.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+ <!-- Additional CSS Files -->
+ <link rel="stylesheet" href="assetss/css/fontawesome.css">
+ <link rel="stylesheet" href="assetss/css/templatemo-edu-meeting.css">
+ <link rel="stylesheet" href="assetss/css/owl.css">
+ <link rel="stylesheet" href="assetss/css/lightbox.css">
+
+  <!-- Template Main CSS File -->
+  <link href="asset/css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+
+
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    </style>
+  <!-- =======================================================
+  * Template Name: Falcon Apps Company 
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+      <!-- ***** Preloader Start ***** -->
+      <div id="preloader" >
+        <p position="bottom" top="80%" left="50%" style="color: white; position: bottom; top:70%; text-align: center;">Falcon Apps Company</p>
+       
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="asset/img/favicon.ico" alt="juna store">
+        <span class="d-none d-lg-block">Juna Store</span>
+      </a>
+      <i class="bi bi-list"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number"></span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              New messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              
+                <div>
+                 
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+<p class="dropdown-menu-arrow" id="text">Nothing Here</p>
+            <li class="message-item">
+             
+                <div>
+                  
+
+
+
+
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              
+                <div>
+                  
+
+
+
+
+
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Close</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+          <a href="users-profile.html">
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="products/profile.webp" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">J. Affiliate </span>
+          </a>
+        </a>
+          <!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <a href="users-profile.html">
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                 <span>My Profile</span></a>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Chart.js</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Charts</li>
+          <li class="breadcrumb-item active">Juna Affiliate Charts</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    
+    <section class="section">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Line Chart</h5>
+
+              <!-- Line Chart -->
+              <canvas id="lineChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#lineChart'), {
+                    type: 'line',
+                    data: {
+                      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                      datasets: [{
+                        label: 'Line Chart',
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                        fill: false,
+                        borderColor: 'rgb(75, 192, 192)',
+                        tension: 0.1
+                      }]
+                    },
+                    options: {
+                      scales: {
+                        y: {
+                          beginAtZero: true
+                        }
+                      }
+                    }
+                  });
+                });
+              </script>
+              <!-- End Line CHart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Bar CHart</h5>
+
+              <!-- Bar Chart -->
+              <canvas id="barChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#barChart'), {
+                    type: 'bar',
+                    data: {
+                      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                      datasets: [{
+                        label: 'Bar Chart',
+                        data: [65, 59, 80, 81, 56, 55, 40],
+                        backgroundColor: [
+                          'rgba(255, 99, 132, 0.2)',
+                          'rgba(255, 159, 64, 0.2)',
+                          'rgba(255, 205, 86, 0.2)',
+                          'rgba(75, 192, 192, 0.2)',
+                          'rgba(54, 162, 235, 0.2)',
+                          'rgba(153, 102, 255, 0.2)',
+                          'rgba(201, 203, 207, 0.2)'
+                        ],
+                        borderColor: [
+                          'rgb(255, 99, 132)',
+                          'rgb(255, 159, 64)',
+                          'rgb(255, 205, 86)',
+                          'rgb(75, 192, 192)',
+                          'rgb(54, 162, 235)',
+                          'rgb(153, 102, 255)',
+                          'rgb(201, 203, 207)'
+                        ],
+                        borderWidth: 1
+                      }]
+                    },
+                    options: {
+                      scales: {
+                        y: {
+                          beginAtZero: true
+                        }
+                      }
+                    }
+                  });
+                });
+              </script>
+              <!-- End Bar CHart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Pie Chart</h5>
+
+              <!-- Pie Chart -->
+              <canvas id="pieChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#pieChart'), {
+                    type: 'pie',
+                    data: {
+                      labels: [
+                        'Red',
+                        'Blue',
+                        'Yellow'
+                      ],
+                      datasets: [{
+                        label: 'My First Dataset',
+                        data: [300, 50, 100],
+                        backgroundColor: [
+                          'rgb(255, 99, 132)',
+                          'rgb(54, 162, 235)',
+                          'rgb(255, 205, 86)'
+                        ],
+                        hoverOffset: 4
+                      }]
+                    }
+                  });
+                });
+              </script>
+              <!-- End Pie CHart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Doughnut Chart</h5>
+
+              <!-- Doughnut Chart -->
+              <canvas id="doughnutChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#doughnutChart'), {
+                    type: 'doughnut',
+                    data: {
+                      labels: [
+                        'Red',
+                        'Blue',
+                        'Yellow'
+                      ],
+                      datasets: [{
+                        label: 'My First Dataset',
+                        data: [300, 50, 100],
+                        backgroundColor: [
+                          'rgb(255, 99, 132)',
+                          'rgb(54, 162, 235)',
+                          'rgb(255, 205, 86)'
+                        ],
+                        hoverOffset: 4
+                      }]
+                    }
+                  });
+                });
+              </script>
+              <!-- End Doughnut CHart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Radar Chart</h5>
+
+              <!-- Radar Chart -->
+              <canvas id="radarChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#radarChart'), {
+                    type: 'radar',
+                    data: {
+                      labels: [
+                        'Eating',
+                        'Drinking',
+                        'Sleeping',
+                        'Designing',
+                        'Coding',
+                        'Cycling',
+                        'Running'
+                      ],
+                      datasets: [{
+                        label: 'First Dataset',
+                        data: [65, 59, 90, 81, 56, 55, 40],
+                        fill: true,
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgb(255, 99, 132)',
+                        pointBackgroundColor: 'rgb(255, 99, 132)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(255, 99, 132)'
+                      }, {
+                        label: 'Second Dataset',
+                        data: [28, 48, 40, 19, 96, 27, 100],
+                        fill: true,
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgb(54, 162, 235)',
+                        pointBackgroundColor: 'rgb(54, 162, 235)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgb(54, 162, 235)'
+                      }]
+                    },
+                    options: {
+                      elements: {
+                        line: {
+                          borderWidth: 3
+                        }
+                      }
+                    }
+                  });
+                });
+              </script>
+              <!-- End Radar CHart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Polar Area Chart</h5>
+
+              <!-- Polar Area Chart -->
+              <canvas id="polarAreaChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#polarAreaChart'), {
+                    type: 'polarArea',
+                    data: {
+                      labels: [
+                        'Red',
+                        'Green',
+                        'Yellow',
+                        'Grey',
+                        'Blue'
+                      ],
+                      datasets: [{
+                        label: 'My First Dataset',
+                        data: [11, 16, 7, 3, 14],
+                        backgroundColor: [
+                          'rgb(255, 99, 132)',
+                          'rgb(75, 192, 192)',
+                          'rgb(255, 205, 86)',
+                          'rgb(201, 203, 207)',
+                          'rgb(54, 162, 235)'
+                        ]
+                      }]
+                    }
+                  });
+                });
+              </script>
+              <!-- End Polar Area Chart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Stacked Bar Chart</h5>
+
+              <!-- Stacked Bar Chart -->
+              <canvas id="stakedBarChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#stakedBarChart'), {
+                    type: 'bar',
+                    data: {
+                      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                      datasets: [{
+                          label: 'Dataset 1',
+                          data: [-75, -15, 18, 48, 74],
+                          backgroundColor: 'rgb(255, 99, 132)',
+                        },
+                        {
+                          label: 'Dataset 2',
+                          data: [-11, -1, 12, 62, 95],
+                          backgroundColor: 'rgb(75, 192, 192)',
+                        },
+                        {
+                          label: 'Dataset 3',
+                          data: [-44, -5, 22, 35, 62],
+                          backgroundColor: 'rgb(255, 205, 86)',
+                        },
+                      ]
+                    },
+                    options: {
+                      plugins: {
+                        title: {
+                          display: true,
+                          text: 'Chart.js Bar Chart - Stacked'
+                        },
+                      },
+                      responsive: true,
+                      scales: {
+                        x: {
+                          stacked: true,
+                        },
+                        y: {
+                          stacked: true
+                        }
+                      }
+                    }
+                  });
+                });
+              </script>
+              <!-- End Stacked Bar Chart -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Bubble Chart</h5>
+
+              <!-- Bubble Chart -->
+              <canvas id="bubbleChart" style="max-height: 400px;"></canvas>
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  new Chart(document.querySelector('#bubbleChart'), {
+                    type: 'bubble',
+                    data: {
+                      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                      datasets: [{
+                          label: 'Dataset 1',
+                          data: [{
+                              x: 20,
+                              y: 30,
+                              r: 15
+                            },
+                            {
+                              x: 40,
+                              y: 10,
+                              r: 10
+                            },
+                            {
+                              x: 15,
+                              y: 37,
+                              r: 12
+                            },
+                            {
+                              x: 32,
+                              y: 42,
+                              r: 33
+                            }
+                          ],
+                          borderColor: 'rgb(255, 99, 132)',
+                          backgroundColor: 'rgba(255, 99, 132, 0.5)'
+                        },
+                        {
+                          label: 'Dataset 2',
+                          data: [{
+                              x: 40,
+                              y: 25,
+                              r: 22
+                            },
+                            {
+                              x: 24,
+                              y: 47,
+                              r: 11
+                            },
+                            {
+                              x: 65,
+                              y: 11,
+                              r: 14
+                            },
+                            {
+                              x: 11,
+                              y: 55,
+                              r: 8
+                            }
+                          ],
+                          borderColor: 'rgb(75, 192, 192)',
+                          backgroundColor: 'rgba(75, 192, 192, 0.5)'
+                        }
+                      ]
+                    },
+                    options: {
+                      responsive: true,
+                      plugins: {
+                        legend: {
+                          position: 'top',
+                        },
+                        title: {
+                          display: true,
+                          text: 'Chart.js Bubble Chart'
+                        }
+                      }
+                    }
+                  });
+                });
+              </script>
+              <!-- End Bubble Chart -->
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Juna Store</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://falconappscompany.blogspot.com/">Falcon Apps Company </a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="apexcharts/apexcharts.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="chart.js/chart.umd.js"></script>
+  <script src="echarts/echarts.min.js"></script>
+  <script src="quill/quill.min.js"></script>
+  <script src="simple-datatables/simple-datatables.js"></script>
+  <script src="tinymce/tinymce.min.js"></script>
+  <script src="php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+ <!-- Vendor JS Files -->
+ <script src="asset/vendor/aos/aos.js"></script>
+ <script src="asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="asset/vendor/glightbox/js/glightbox.min.js"></script>
+ <script src="asset/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ <script src="asset/vendor/swiper/swiper-bundle.min.js"></script>
+ <script src="asset/vendor/waypoints/noframework.waypoints.js"></script>
+ <script src="asset/vendor/php-email-form/validate.js"></script>
+
+ <!-- Template Main JS File -->
+ <script src="asset/js/main.js"></script>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assetss/js/isotope.min.js"></script>
+  <script src="assetss/js/owl-carousel.js"></script>
+  <script src="assetss/js/lightbox.js"></script>
+  <script src="assetss/js/tabs.js"></script>
+  <script src="assetss/js/video.js"></script>
+  <script src="assetss/js/slick-slider.js"></script>
+  <script src="assetss/js/custom.js"></script>
+  <script>
+      //according to loftblog tut
+      $('.nav li:first').addClass('active');
+
+      var showSection = function showSection(section, isAnimate) {
+        var
+        direction = section.replace(/#/, ''),
+        reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+        reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $('body, html').animate({
+            scrollTop: reqSectionPos },
+          800);
+        } else {
+          $('body, html').scrollTop(reqSectionPos);
+        }
+
+      };
+
+      var checkSection = function checkSection() {
+        $('.section').each(function () {
+          var
+          $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var
+            currentId = $this.data('section'),
+            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+            reqLink.closest('li').addClass('active').
+            siblings().removeClass('active');
+          }
+        });
+      };
+
+      $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+        e.preventDefault();
+        showSection($(this).attr('href'), true);
+      });
+
+      $(window).scroll(function () {
+        checkSection();
+      });
+  </script>
+  <!-- Placed at the end of the document so the pages load faster ============================================= -->
+	<script src="themes/js/jquery.js" type="text/javascript"></script>
+	<script src="themes/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="themes/js/google-code-prettify/prettify.js"></script>
+	
+	<script src="themes/js/bootshop.js"></script>
+    <script src="themes/js/jquery.lightbox-0.5.js"></script>
+    	<!-- Themes switcher section ============================================================================================= -->
+<div id="secectionBox">
+  <link rel="stylesheet" href="themes/switch/themeswitch.css" type="text/css" media="screen" />
+  <script src="themes/switch/theamswitcher.js" type="text/javascript" charset="utf-8"></script>
+    <div id="themeContainer">
+    <div id="hideme" class="themeTitle">Style Selector</div>
+    <div class="themeName">Oregional Skin</div>
+    <div class="images style">
+    <a href="css/#" name="bootshop"><img src="switch/images/clr/bootshop.png" alt="bootstrap business templates" class="active"></a>
+    <a href="css/#" name="businessltd"><img src="switch/images/clr/businessltd.png" alt="bootstrap business templates" class="active"></a>
+    </div>
+    <div class="themeName">Bootswatch Skins (11)</div>
+    <div class="images style">
+      <a href="css/#" name="amelia" title="Amelia"><img src="switch/images/clr/amelia.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="spruce" title="Spruce"><img src="switch/images/clr/spruce.png" alt="bootstrap business templates" ></a>
+      <a href="css/#" name="superhero" title="Superhero"><img src="switch/images/clr/superhero.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="cyborg"><img src="switch/images/clr/cyborg.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="cerulean"><img src="switch/images/clr/cerulean.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="journal"><img src="switch/images/clr/journal.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="readable"><img src="switch/images/clr/readable.png" alt="bootstrap business templates"></a>	
+      <a href="css/#" name="simplex"><img src="switch/images/clr/simplex.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="slate"><img src="switch/images/clr/slate.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="spacelab"><img src="switch/images/clr/spacelab.png" alt="bootstrap business templates"></a>
+      <a href="css/#" name="united"><img src="switch/images/clr/united.png" alt="bootstrap business templates"></a>
+      <p style="margin:0;line-height:normal;margin-left:-10px;display:none;"><small>Temporary change your background style .</small></p>
+    </div>
+    <div class="themeName">Background Patterns </div>
+    <div class="images patterns">
+      <a href="themes/css/#" name="pattern1"><img src="themes/switch/images/pattern/pattern1.png" alt="bootstrap business templates" class="active"></a>
+      <a href="themes/css/#" name="pattern2"><img src="themes/switch/images/pattern/pattern2.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern3"><img src="themes/switch/images/pattern/pattern3.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern4"><img src="themes/switch/images/pattern/pattern4.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern5"><img src="themes/switch/images/pattern/pattern5.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern6"><img src="themes/switch/images/pattern/pattern6.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern7"><img src="themes/switch/images/pattern/pattern7.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
+      
+      <a href="themes/css/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
+      
+      <a href="themes/css/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
+      <a href="themes/css/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+      
+  <span id="themesBtn"></span>
+ 
+
+    <!-- jQuery -->
+    <script src="assets=/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets=/js/popper.js"></script>
+    <script src="assets=/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets=/js/owl-carousel.js"></script>
+    <script src="assets=/js/accordions.js"></script>
+    <script src="assets=/js/datepicker.js"></script>
+    <script src="assets=/js/scrollreveal.min.js"></script>
+    <script src="assets=/js/waypoints.min.js"></script>
+    <script src="assets=/js/jquery.counterup.min.js"></script>
+    <script src="assets=/js/imgfix.min.js"></script> 
+    <script src="assets=/js/slick.js"></script> 
+    <script src="assets=/js/lightbox.js"></script> 
+    <script src="assets=/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets=/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script><script>
+// Get the modal
+
+
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+
+</body>
+</html>
+</body>
+
+</html>
