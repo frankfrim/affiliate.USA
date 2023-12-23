@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+    <!--<![endif]-->
+    <head>
+        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <title>Meménto | Another nice WP theme by YIW</title>
+        
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+        <!-- [favicon] end --> 
+        
+        <!-- CSS Main -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 960px)" href="css/lessthen960.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/lessthen600.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/lessthen480.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/memento.css"  />
+        
+        <!-- CSS Plugin -->
+        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="css/tipsy.css" type="text/css" media="all" />
+        <link rel='stylesheet' href='css/buttons.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/labels.min.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/wells.min.css' type='text/css' media='all' />
+        
+        <!-- CSS Slider -->
+        <link rel="stylesheet" href="css/slider-thumbnails.css" type="text/css" media="all" />
+	
+		<link rel="stylesheet" type="text/css" media="all" href="css/homes/default.css" />
+		<link rel='stylesheet' href='css/buttons/ultraviolet-rays-1.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/buttons/indian-night-5.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/buttons/identification-4.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/buttons/hem-5.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/buttons/friends-and-foes-2.css' type='text/css' media='all' />
+		<link rel='stylesheet' href='css/buttons/view-over-the-town-5.css' type='text/css' media='all' />
+    
+
+        <!-- FONTS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans&amp;subset=latin%2Ccyrillic%2Cgreek&amp;ver=3.4.1" type="text/css" media="all" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light&amp;subset=latin%2Ccyrillic%2Cgreek&amp;ver=3.4.1" type="text/css" media="all" />
+        <link rel='stylesheet' href='http://yourinspirationweb.com/demo/memento/wp-content/themes/memento/core/includes/css/font-awesome.css?ver=3.4.1' type='text/css' media='all' />
+        <link rel='stylesheet' href='http://yourinspirationweb.com/demo/memento/wp-content/themes/memento/fonts/socialico/stylesheet.css?ver=3.4.1' type='text/css' media='all' />
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%7CPlayfair+Display%3A400italic&#038;ver=3.4.1' type='text/css' media='all' />
+        
+        <!-- JavaScripts -->
+        <script type="text/javascript">
+            var yiw_prettyphoto_style = 'pp_default';
+        </script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+        <script type="text/javascript" src="js/jquery.tweetable.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+        <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+        <script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+        <script type="text/javascript" src="js/superfish.js"></script>
+        <script type='text/javascript' src="js/jquery.eislideshow.js"></script>
+        <script type='text/javascript' src="js/swfobject.js"></script>
+        <script type='text/javascript' src='js/jquery.cookie.js'></script>
+        <script type='text/javascript' src='js/buttons.min.js'></script>
+        <script type='text/javascript' src='js/layerslider.kreaturamedia.jquery-min.js'></script>
+        <script type='text/javascript' src='js/jquery.quicksand.js'></script>
+        
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            
+            /* The Modal (background) */
+            .modal {
+              display: none; /* Hidden by default */
+              position: fixed; /* Stay in place */
+              z-index: 1; /* Sit on top */
+              padding-top: 100px; /* Location of the box */
+              left: 0;
+              top: 0;
+              width: 100%; /* Full width */
+              height: 100%; /* Full height */
+              overflow: auto; /* Enable scroll if needed */
+              background-color: rgb(0,0,0); /* Fallback color */
+              background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            }
+            
+            /* Modal Content */
+            .modal-content {
+              background-color: #fefefe;
+              margin: auto;
+              padding: 20px;
+              border: 1px solid #888;
+              width: 80%;
+            }
+            
+            /* The Close Button */
+            .close {
+              color: #aaaaaa;
+              float: right;
+              font-size: 28px;
+              font-weight: bold;
+            }
+            
+            .close:hover,
+            .close:focus {
+              color: #000;
+              text-decoration: none;
+              cursor: pointer;
+            }
+            </style>
+    </head>
+    <body class="no_js responsive boxed-layout chrome ">
+        
+        <!-- TOPBAR -->
+        <div id="topbar">
+            <div class="inner group">
+                
+                <div class="topbar-left">
+                    <!-- START TWITTER -->
+                    <div id="twitter-slider" class="group">
+                        <div class="tweets-list"></div>
+                        <script type="text/javascript" src="js/twitter.js" ></script>	
+                    </div>
+                    <!-- END TWITTER -->
+                </div>
+                
+                <div class="topbar-right">
+                    <ul class="topbar-level-1">
+                        <li>
+                            <a href="#">Top bar menu</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">And submenu</a></li>
+                                <li><a href="#"><i class="icon-home"></i>with icons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html"><i class="icon-envelope"></i> Mail us</a></li>
+                        <li class="login_link"><i class="icon-key"></i><a href="#">Log in</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <!-- END TOPBAR -->
+        
+        <!-- START WRAPPER -->
+        <div class="wrapper group">
+            <!-- START HEADER -->
+            <div id="header" class="group">
+                <div class="group inner">
+                    
+                    <!-- START LOGO -->
+                    <div id="logo" class="group">
+                        <h1>
+                            <a class="logo-text" href="index.html" title="Mem&eacute;nto">Mem<span>é</span>nto</a>                        
+                        </h1>
+                        <p>Another nice WP theme by YIW</p>
+                    </div>
+                    <!-- END LOGO -->  
+                    
+                    <!-- START NAV -->
+                    <div id="nav" class="group">
+                        <ul id="menu-main-nav" class="level-1">
+                            
+                          
+                        </ul>
+                    </div>
+                    <!-- END NAV -->     
+                </div>
+            </div>
+            <!-- END HEADER -->
+
+            <!-- PAGE META -->
+			<div id="page_meta" class="home-section">
+			    <div class="inner group">
+			        <div class="meta-left">
+			            <h2 class="page-title">Alert Box &amp; Buttons</h2>
+			        </div>
+			        <div class="meta-right">
+			            <p id="crumbs" class="theme_breadcumb"><a class="home" href="index.html">Home Page</a>  //  <a class="no-link" href="#">Shortcodes</a>  //  <a class="no-link current" href="#">Alert Box &amp; Buttons</a></p>
+			        </div>
+			    </div>
+			</div>
+			<!-- /PAGE META -->
+			
+			<div id="primary" class="layout-sidebar-right home-section">
+			    <div class="inner group">
+			        <!-- START CONTENT -->
+			        <div id="content" class="group">
+			            <div class="page type-page status-publish hentry group">
+			                <h4 class="title-post-page">Success Box</h4>
+			                <div class="box success-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a></div>
+			                
+			                <h4>Arrow Box</h4>
+			                <div class="box arrow-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a></div>
+			                
+			                <h4>Alert Box</h4>
+			                <div class="box alert-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a></div>
+			                
+			                <h4>Error Box</h4>
+			                <div class="box error-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a></div>
+			                
+			                <h4>Notice Box</h4>
+			                <div class="box notice-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a><!-- Trigger/Open The Modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDialogScrollable" id="myBtn">your text	</button>
+                                
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                
+                                  <!-- Modal content -->
+                                  <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn01.jotfor.ms/static/jotform.forms.js?3.3.44065" type="text/javascript"></script>
+                                    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+                                    <script src="https://cdn02.jotfor.ms/js/payments/validategateways.js?v=3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn03.jotfor.ms/js/jotStorage.js?v=3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn01.jotfor.ms/js/vendor/autoFill.min.js?v=3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn01.jotfor.ms/s/umd/8a6e8cd8362/for-form-branding-footer.js?v=3.3.44065" type="text/javascript" defer></script>
+                                    <script type="text/javascript">	JotForm.newDefaultTheme = false;
+                                      JotForm.extendsNewTheme = true;
+                                      JotForm.singleProduct = false;
+                                      JotForm.newPaymentUIForNewCreatedForms = true;
+                                      JotForm.newPaymentUI = true;
+                                      JotForm.clearFieldOnHide="disable";
+                                      JotForm.submitError="jumpToFirstError";
+                                      JotForm.init(function(){
+                                      /*INIT-START*/
+                                          setTimeout(function() {
+                                              $('input_10').hint('junabuystore@gmail.com');
+                                           }, 20);
+                                          JotForm.autoNext(11);
+                                    if (window.JotForm && JotForm.accessible) $('input_12').setAttribute('tabindex',0);
+                                          JotForm.autoNext(13);
+                                          JotForm.autoNext(15);
+                                    if (window.JotForm && JotForm.accessible) $('input_16').setAttribute('tabindex',0);
+                                          setTimeout(function() {
+                                              $('input_16').hint('JunaStore_1');
+                                           }, 20);
+                                          setTimeout(function() {
+                                              $('input_4').hint('junabuystore@gmail.com');
+                                           }, 20);
+                                    if (window.JotForm && JotForm.accessible) $('input_6').setAttribute('tabindex',0);
+                                          JotForm.alterTexts(undefined);
+                                              JotForm.isNewSaveAndContinueLaterActive = true;
+                                      /*INIT-END*/
+                                      });
+                                    
+                                       setTimeout(function() {
+                                    JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Get Your Juna ID","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},null,{"description":"","name":"email","qid":"4","subLabel":"example@example.com","text":"Email","type":"control_email"},{"name":"pageBreak","qid":"5","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"typeA","qid":"6","subLabel":"","text":"Why get the ID","type":"control_textbox"},{"name":"pageBreak7","qid":"7","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"phoneNumber","qid":"8","text":"Your contact","type":"control_phone"},{"description":"","name":"name","qid":"9","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"10","subLabel":"example@example.com","text":"Email","type":"control_email"},{"name":"pageBreak","qid":"11","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"typeA","qid":"12","subLabel":"","text":"Why get the ID ","type":"control_textbox"},{"name":"pageBreak13","qid":"13","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"phoneNumber","qid":"14","text":"Phone Number","type":"control_phone"},{"name":"pageBreak15","qid":"15","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"typeA16","qid":"16","subLabel":"","text":"Enter a preferred Juna ID ","type":"control_textbox"}]);}, 20); 
+                                    </script>
+                                    </head>
+                                    <body>
+                                    <form class="jotform-form" action="https://submit.jotform.com/submit/232153948431052" method="post" name="form_232153948431052" id="232153948431052" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="232153948431052" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
+                                      <div role="main" class="form-all">
+                                        <ul class="form-section page-section">
+                                          <li id="cid_1" class="form-input-wide" data-type="control_head">
+                                            <div class="form-header-group  header-large">
+                                              <div class="header-text httac htvam">
+                                                <h1 id="header_1" class="form-header" data-component="header">Get Your Juna ID</h1>
+                                                <div id="subHeader_1" class="form-subHeader">It&#x27;s free</div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li class="form-line jf-required" data-type="control_fullname" id="id_9"><label class="form-label form-label-top form-label-auto" id="label_9" for="first_9"> Name<span class="form-required">*</span> </label>
+                                            <div id="cid_9" class="form-input-wide jf-required" data-layout="full">
+                                              <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_9" name="q9_name[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_9 given-name" size="10" value="" data-component="first" aria-labelledby="label_9 sublabel_9_first" required="" /><label class="form-sub-label" for="first_9" id="sublabel_9_first" style="min-height:13px" aria-hidden="false">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_9" name="q9_name[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_9 family-name" size="15" value="" data-component="last" aria-labelledby="label_9 sublabel_9_last" required="" /><label class="form-sub-label" for="last_9" id="sublabel_9_last" style="min-height:13px" aria-hidden="false">Last Name</label></span></div>
+                                            </div>
+                                          </li>
+                                          <li class="form-line jf-required" data-type="control_email" id="id_10"><label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Email<span class="form-required">*</span> </label>
+                                            <div id="cid_10" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_10" name="q10_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="junabuystore@gmail.com" data-component="email" aria-labelledby="label_10 sublabel_input_10" required="" /><label class="form-sub-label" for="input_10" id="sublabel_input_10" style="min-height:13px" aria-hidden="false">example@example.com</label></span> </div>
+                                          </li>
+                                          <li id="cid_11" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_11" type="button" class="form-pagebreak-back  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_11" type="button" class="form-pagebreak-next  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_11" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_11"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line" data-type="control_textbox" id="id_12"><label class="form-label form-label-top form-label-auto" id="label_12" for="input_12"> Why get the ID </label>
+                                            <div id="cid_12" class="form-input-wide" data-layout="half"> <input type="text" id="input_12" name="q12_typeA" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_12" /> </div>
+                                          </li>
+                                          <li id="cid_13" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_13" type="button" class="form-pagebreak-back  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_13" type="button" class="form-pagebreak-next  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_13" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_13"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_phone" id="id_14"><label class="form-label form-label-top form-label-auto" id="label_14" for="input_14_area"> Phone Number<span class="form-required">*</span> </label>
+                                            <div id="cid_14" class="form-input-wide jf-required" data-layout="half">
+                                              <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_14_area" name="q14_phoneNumber[area]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_14 tel-area-code" value="" data-component="areaCode" aria-labelledby="label_14 sublabel_14_area" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_14_area" id="sublabel_14_area" style="min-height:13px" aria-hidden="false">Area Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_14_phone" name="q14_phoneNumber[phone]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_14 tel-local" value="" data-component="phone" aria-labelledby="label_14 sublabel_14_phone" required="" /><label class="form-sub-label" for="input_14_phone" id="sublabel_14_phone" style="min-height:13px" aria-hidden="false">Phone Number</label></span></div>
+                                            </div>
+                                          </li>
+                                          <li id="cid_15" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_15" type="button" class="form-pagebreak-back  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_15" type="button" class="form-pagebreak-next  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_15" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_15"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_textbox" id="id_16"><label class="form-label form-label-top form-label-auto" id="label_16" for="input_16"> Enter a preferred Juna ID <span class="form-required">*</span> </label>
+                                            <div id="cid_16" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_16" name="q16_typeA16" data-type="input-textbox" class="form-textbox validate[required, AlphaNumeric, minCharLimit]" data-defaultvalue="" style="width:310px" size="310" value="" maxLength="20" data-minlength="8" placeholder="JunaStore_1" data-component="textbox" aria-labelledby="label_16" required="" /> </div>
+                                          </li>
+                                          <li class="form-line" data-type="control_button" id="id_2">
+                                            <div id="cid_2" class="form-input-wide" data-layout="full">
+                                              <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_scl_2" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button><button id="input_2" type="submit" class="form-submit-button form-submit-button-orange-500 submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Submit</button></div>
+                                              <div class="form-submit-clear-wrapper"><button id="input_reset_2" type="reset" class="form-submit-reset form-submit-button-orange-500 jf-form-buttons" data-component="button">Clear All Questions</button></div>
+                                            </div>
+                                          </li>
+                                          <li class="form-line jf-required" data-type="control_email" id="id_4"><label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Email<span class="form-required">*</span> </label>
+                                            <div id="cid_4" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_4" name="q4_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="junabuystore@gmail.com" data-component="email" aria-labelledby="label_4 sublabel_input_4" required="" /><label class="form-sub-label" for="input_4" id="sublabel_input_4" style="min-height:13px" aria-hidden="false">example@example.com</label></span> </div>
+                                          </li>
+                                          <li id="cid_5" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_5" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_5" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_5" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_5"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_textbox" id="id_6"><label class="form-label form-label-top form-label-auto" id="label_6" for="input_6"> Why get the ID<span class="form-required">*</span> </label>
+                                            <div id="cid_6" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_6" name="q6_typeA" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_6" required="" /> </div>
+                                          </li>
+                                          <li id="cid_7" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_7" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_7" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_7" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_7"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_phone" id="id_8"><label class="form-label form-label-top form-label-auto" id="label_8" for="input_8_country"> Your contact<span class="form-required">*</span> </label>
+                                            <div id="cid_8" class="form-input-wide jf-required" data-layout="half">
+                                              <div data-wrapper-react="true" class="extended"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="countryCode"><input type="tel" id="input_8_country" name="q8_phoneNumber[country]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_8 tel-country-code" value="" data-component="countryCode" aria-labelledby="label_8 sublabel_8_country" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_8_country" id="sublabel_8_country" style="min-height:13px" aria-hidden="false">Country Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_8_area" name="q8_phoneNumber[area]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_8 tel-area-code" value="" data-component="areaCode" aria-labelledby="label_8 sublabel_8_area" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_8_area" id="sublabel_8_area" style="min-height:13px" aria-hidden="false">Area Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_8_phone" name="q8_phoneNumber[phone]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_8 tel-local" value="" data-component="phone" aria-labelledby="label_8 sublabel_8_phone" required="" /><label class="form-sub-label" for="input_8_phone" id="sublabel_8_phone" style="min-height:13px" aria-hidden="false">Phone Number</label></span></div>
+                                            </div>
+                                          </li>
+                                          <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
+                                        </ul>
+                                      </div>
+                                    
+                                  </div>
+                                
+                                </div></div>
+			                
+			                <h4>Info Box</h4>
+			                <div class="box info-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow">&nbsp;</span></a><!-- Trigger/Open The Modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDialogScrollable" id="myBtn"><a href="#" class="button"><a class="more-button more-button-rtl"  title="your text">your text	<span class="icon tick">&nbsp;</span></a> </a></button>
+                                
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                
+                                  <!-- Modal content -->
+                                  <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn01.jotfor.ms/static/jotform.forms.js?3.3.44065" type="text/javascript"></script>
+                                    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
+                                    <script src="https://cdn02.jotfor.ms/js/payments/validategateways.js?v=3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn03.jotfor.ms/js/jotStorage.js?v=3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn01.jotfor.ms/js/vendor/autoFill.min.js?v=3.3.44065" type="text/javascript"></script>
+                                    <script src="https://cdn01.jotfor.ms/s/umd/8a6e8cd8362/for-form-branding-footer.js?v=3.3.44065" type="text/javascript" defer></script>
+                                    <script type="text/javascript">	JotForm.newDefaultTheme = false;
+                                      JotForm.extendsNewTheme = true;
+                                      JotForm.singleProduct = false;
+                                      JotForm.newPaymentUIForNewCreatedForms = true;
+                                      JotForm.newPaymentUI = true;
+                                      JotForm.clearFieldOnHide="disable";
+                                      JotForm.submitError="jumpToFirstError";
+                                      JotForm.init(function(){
+                                      /*INIT-START*/
+                                          setTimeout(function() {
+                                              $('input_10').hint('junabuystore@gmail.com');
+                                           }, 20);
+                                          JotForm.autoNext(11);
+                                    if (window.JotForm && JotForm.accessible) $('input_12').setAttribute('tabindex',0);
+                                          JotForm.autoNext(13);
+                                          JotForm.autoNext(15);
+                                    if (window.JotForm && JotForm.accessible) $('input_16').setAttribute('tabindex',0);
+                                          setTimeout(function() {
+                                              $('input_16').hint('JunaStore_1');
+                                           }, 20);
+                                          setTimeout(function() {
+                                              $('input_4').hint('junabuystore@gmail.com');
+                                           }, 20);
+                                    if (window.JotForm && JotForm.accessible) $('input_6').setAttribute('tabindex',0);
+                                          JotForm.alterTexts(undefined);
+                                              JotForm.isNewSaveAndContinueLaterActive = true;
+                                      /*INIT-END*/
+                                      });
+                                    
+                                       setTimeout(function() {
+                                    JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"Get Your Juna ID","type":"control_head"},{"name":"submit2","qid":"2","text":"Submit","type":"control_button"},null,{"description":"","name":"email","qid":"4","subLabel":"example@example.com","text":"Email","type":"control_email"},{"name":"pageBreak","qid":"5","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"typeA","qid":"6","subLabel":"","text":"Why get the ID","type":"control_textbox"},{"name":"pageBreak7","qid":"7","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"phoneNumber","qid":"8","text":"Your contact","type":"control_phone"},{"description":"","name":"name","qid":"9","text":"Name","type":"control_fullname"},{"description":"","name":"email","qid":"10","subLabel":"example@example.com","text":"Email","type":"control_email"},{"name":"pageBreak","qid":"11","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"typeA","qid":"12","subLabel":"","text":"Why get the ID ","type":"control_textbox"},{"name":"pageBreak13","qid":"13","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"phoneNumber","qid":"14","text":"Phone Number","type":"control_phone"},{"name":"pageBreak15","qid":"15","text":"Page Break","type":"control_pagebreak"},{"description":"","name":"typeA16","qid":"16","subLabel":"","text":"Enter a preferred Juna ID ","type":"control_textbox"}]);}, 20); 
+                                    </script>
+                                    </head>
+                                    <body>
+                                    <form class="jotform-form" action="https://submit.jotform.com/submit/232153948431052" method="post" name="form_232153948431052" id="232153948431052" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="232153948431052" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
+                                      <div role="main" class="form-all">
+                                        <ul class="form-section page-section">
+                                          <li id="cid_1" class="form-input-wide" data-type="control_head">
+                                            <div class="form-header-group  header-large">
+                                              <div class="header-text httac htvam">
+                                                <h1 id="header_1" class="form-header" data-component="header">Get Your Juna ID</h1>
+                                                <div id="subHeader_1" class="form-subHeader">It&#x27;s free</div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li class="form-line jf-required" data-type="control_fullname" id="id_9"><label class="form-label form-label-top form-label-auto" id="label_9" for="first_9"> Name<span class="form-required">*</span> </label>
+                                            <div id="cid_9" class="form-input-wide jf-required" data-layout="full">
+                                              <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_9" name="q9_name[first]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_9 given-name" size="10" value="" data-component="first" aria-labelledby="label_9 sublabel_9_first" required="" /><label class="form-sub-label" for="first_9" id="sublabel_9_first" style="min-height:13px" aria-hidden="false">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_9" name="q9_name[last]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_9 family-name" size="15" value="" data-component="last" aria-labelledby="label_9 sublabel_9_last" required="" /><label class="form-sub-label" for="last_9" id="sublabel_9_last" style="min-height:13px" aria-hidden="false">Last Name</label></span></div>
+                                            </div>
+                                          </li>
+                                          <li class="form-line jf-required" data-type="control_email" id="id_10"><label class="form-label form-label-top form-label-auto" id="label_10" for="input_10"> Email<span class="form-required">*</span> </label>
+                                            <div id="cid_10" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_10" name="q10_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="junabuystore@gmail.com" data-component="email" aria-labelledby="label_10 sublabel_input_10" required="" /><label class="form-sub-label" for="input_10" id="sublabel_input_10" style="min-height:13px" aria-hidden="false">example@example.com</label></span> </div>
+                                          </li>
+                                          <li id="cid_11" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_11" type="button" class="form-pagebreak-back  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_11" type="button" class="form-pagebreak-next  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_11" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_11"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line" data-type="control_textbox" id="id_12"><label class="form-label form-label-top form-label-auto" id="label_12" for="input_12"> Why get the ID </label>
+                                            <div id="cid_12" class="form-input-wide" data-layout="half"> <input type="text" id="input_12" name="q12_typeA" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_12" /> </div>
+                                          </li>
+                                          <li id="cid_13" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_13" type="button" class="form-pagebreak-back  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_13" type="button" class="form-pagebreak-next  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_13" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_13"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_phone" id="id_14"><label class="form-label form-label-top form-label-auto" id="label_14" for="input_14_area"> Phone Number<span class="form-required">*</span> </label>
+                                            <div id="cid_14" class="form-input-wide jf-required" data-layout="half">
+                                              <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_14_area" name="q14_phoneNumber[area]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_14 tel-area-code" value="" data-component="areaCode" aria-labelledby="label_14 sublabel_14_area" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_14_area" id="sublabel_14_area" style="min-height:13px" aria-hidden="false">Area Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_14_phone" name="q14_phoneNumber[phone]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_14 tel-local" value="" data-component="phone" aria-labelledby="label_14 sublabel_14_phone" required="" /><label class="form-sub-label" for="input_14_phone" id="sublabel_14_phone" style="min-height:13px" aria-hidden="false">Phone Number</label></span></div>
+                                            </div>
+                                          </li>
+                                          <li id="cid_15" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_15" type="button" class="form-pagebreak-back  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_15" type="button" class="form-pagebreak-next  form-submit-button-orange-500 jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_15" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_15"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_textbox" id="id_16"><label class="form-label form-label-top form-label-auto" id="label_16" for="input_16"> Enter a preferred Juna ID <span class="form-required">*</span> </label>
+                                            <div id="cid_16" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_16" name="q16_typeA16" data-type="input-textbox" class="form-textbox validate[required, AlphaNumeric, minCharLimit]" data-defaultvalue="" style="width:310px" size="310" value="" maxLength="20" data-minlength="8" placeholder="JunaStore_1" data-component="textbox" aria-labelledby="label_16" required="" /> </div>
+                                          </li>
+                                          <li class="form-line" data-type="control_button" id="id_2">
+                                            <div id="cid_2" class="form-input-wide" data-layout="full">
+                                              <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_scl_2" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-orange-500 jf-form-buttons " data-component="button">Save</button><button id="input_2" type="submit" class="form-submit-button form-submit-button-orange-500 submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">Submit</button></div>
+                                              <div class="form-submit-clear-wrapper"><button id="input_reset_2" type="reset" class="form-submit-reset form-submit-button-orange-500 jf-form-buttons" data-component="button">Clear All Questions</button></div>
+                                            </div>
+                                          </li>
+                                          <li class="form-line jf-required" data-type="control_email" id="id_4"><label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Email<span class="form-required">*</span> </label>
+                                            <div id="cid_4" class="form-input-wide jf-required" data-layout="half"> <span class="form-sub-label-container" style="vertical-align:top"><input type="email" id="input_4" name="q4_email" class="form-textbox validate[required, Email]" data-defaultvalue="" style="width:310px" size="310" value="" placeholder="junabuystore@gmail.com" data-component="email" aria-labelledby="label_4 sublabel_input_4" required="" /><label class="form-sub-label" for="input_4" id="sublabel_input_4" style="min-height:13px" aria-hidden="false">example@example.com</label></span> </div>
+                                          </li>
+                                          <li id="cid_5" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_5" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_5" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_5" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_5"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_textbox" id="id_6"><label class="form-label form-label-top form-label-auto" id="label_6" for="input_6"> Why get the ID<span class="form-required">*</span> </label>
+                                            <div id="cid_6" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_6" name="q6_typeA" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_6" required="" /> </div>
+                                          </li>
+                                          <li id="cid_7" class="form-input-wide" data-type="control_pagebreak">
+                                            <div class="form-pagebreak" data-component="pagebreak">
+                                              <div class="form-pagebreak-back-container"><button id="form-pagebreak-back_7" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">Back</button></div>
+                                              <div class="form-pagebreak-next-container"><button id="form-pagebreak-next_7" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">Next</button></div>
+                                              <div class="form-pagebreak-next-container form-pagebreak-save-container"><button id="input_scl_7" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  jf-form-buttons " data-component="button">Save</button></div>
+                                              <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_7"></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <ul class="form-section page-section" style="display:none;">
+                                          <li class="form-line jf-required" data-type="control_phone" id="id_8"><label class="form-label form-label-top form-label-auto" id="label_8" for="input_8_country"> Your contact<span class="form-required">*</span> </label>
+                                            <div id="cid_8" class="form-input-wide jf-required" data-layout="half">
+                                              <div data-wrapper-react="true" class="extended"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="countryCode"><input type="tel" id="input_8_country" name="q8_phoneNumber[country]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_8 tel-country-code" value="" data-component="countryCode" aria-labelledby="label_8 sublabel_8_country" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_8_country" id="sublabel_8_country" style="min-height:13px" aria-hidden="false">Country Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_8_area" name="q8_phoneNumber[area]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_8 tel-area-code" value="" data-component="areaCode" aria-labelledby="label_8 sublabel_8_area" required="" /><span class="phone-separate" aria-hidden="true"> -</span><label class="form-sub-label" for="input_8_area" id="sublabel_8_area" style="min-height:13px" aria-hidden="false">Area Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_8_phone" name="q8_phoneNumber[phone]" class="form-textbox validate[required]" data-defaultvalue="" autoComplete="section-input_8 tel-local" value="" data-component="phone" aria-labelledby="label_8 sublabel_8_phone" required="" /><label class="form-sub-label" for="input_8_phone" id="sublabel_8_phone" style="min-height:13px" aria-hidden="false">Phone Number</label></span></div>
+                                            </div>
+                                          </li>
+                                          <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
+                                        </ul>
+                                      </div>
+                                    
+                                  </div>
+                                
+                                </div></div>
+			                
+			                <h4>Styled Button Icon</h4>
+			                <a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow">&nbsp;</span></a> 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a> 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon calc">&nbsp;</span></a>
+			                <a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon gift">&nbsp;</span></a> 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon offer">&nbsp;</span></a> 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon remove">&nbsp;</span></a>
+			                <a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon tick">&nbsp;</span></a> 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon download">&nbsp;</span></a> 	<a class="more-button more-button-ltr" href="#" title="your text">your text	<span class="icon cart">&nbsp;</span></a>
+			                
+			                <div class="clear space"></div>
+			                <a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon arrow">&nbsp;</span></a> 	<a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon arrow-left">&nbsp;</span></a> 	<a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon calc">&nbsp;</span></a>
+			                <a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon gift">&nbsp;</span></a> 	<a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon offer">&nbsp;</span></a> 	<a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon remove">&nbsp;</span></a>
+			                <a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon tick">&nbsp;</span></a> 	<a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon download">&nbsp;</span></a> 	<a class="more-button more-button-rtl" href="#" title="your text">your text	<span class="icon cart">&nbsp;</span></a>
+			                
+			                <div class="clear space"></div>
+			                <h2>Buttons</h2>
+			                <h2><span style="font-size:18px;"><strong>500+</strong></span> different buttons! <a title="Check this page" href="http://wrapbootstrap.com/preview/WB00T81AK" target="_blank">Check this page</a> for all variants!</h2>
+			                <p><a href="http://wrapbootstrap.com/preview/WB00T81AK" target="_blank"><img class="alignnone size-full " src="images/buttons.jpg" alt="" width="934" height="1881" /></a></p>
+			                <a href="#" class="btn btn-ultraviolet-rays-1 "><i class="icon-user"></i> User</a>
+			                <a href="#" class="btn btn-indian-night-5 "><i class="icon-refresh"></i> Refresh</a>
+			                <a href="#" class="btn btn-identification-4 "><i class="icon-shopping-cart"></i> Checkout</a>
+			                <a href="#" class="btn btn-hem-5 "><i class="icon-trash"></i> Delete</a>
+			                <a href="#" class="btn btn-indian-night-5 "><i class="icon-comment"></i> Comment</a>
+			                <a href="#" class="btn btn-indian-night-5 "><i class="icon-cogs"></i> Settings</a>
+			                <a href="#" class="btn btn-friends-and-foes-2 "><i class="icon-info-sign"></i> More info</a>
+			                
+			                <h3>Buttons size</h3>
+			                <a href="#" class="btn btn-mini btn-view-over-the-town-5 "><i class="icon-user" style="font-size: 8px;"></i> Home</a>
+			                <a href="#" class="btn btn-small btn-view-over-the-town-5 "><i class="icon-film" style="font-size: 12px;"></i> Home</a>
+			                <a href="#" class="btn btn-view-over-the-town-5 "><i class="icon-road" style="font-size: 15px;"></i> Home</a>
+			                <a href="#" class="btn btn-large btn-view-over-the-town-5 "><i class="icon-time" style="font-size: 20px;"></i> Home</a>
+			                
+			            </div>
+			        </div>
+			        <!-- END CONTENT -->
+			        
+			        <!-- START SIDEBAR -->
+			        <div id="sidebar" class="group one-fourth last">
+			            <div class="widget-first widget-last widget widget_nav_menu">
+			                <h3>Shortcodes</h3>
+			                <div class="menu-shortcodes-container">
+			                    <ul id="menu-shortcodes" class="menu">
+			                        <li><a href="alert-box-buttons.html">Alert Box &amp; Buttons</a></li>
+			                        <li><a href="icon-section.html">Icon section</a></li>
+			                        <li><a href="media-widgets.html">Media &amp; Widgets</a></li>
+			                        <li><a href="mix-various.html">Mix &amp; Various</a></li>
+			                        <li><a href="nivo-slider.html">Nivo Slider</a></li>
+			                        <li><a href="table-box-prices.html">Table &amp; Box prices</a></li>
+			                        <li><a href="typography.html">Typography</a></li>
+			                    </ul>
+			                </div>
+			            </div>
+			        </div>
+			        <!-- END SIDEBAR -->
+			    </div>
+			</div>
+			<div class="clear"></div>
+		</div>     
+		<!-- END WRAPPER -->
+		
+		<div id="footer" class="sidebar-right">
+            <div class="group inner footer_row_1 footer_cols_3">
+                
+                <div class="widget-first widget recent-posts">
+                    <h3>From our blog</h3>
+                    <div class="recent-post group">
+                        
+                        <div class="hentry-post group">
+                            <p class="post-date"><span class="day">2</span><span class="month">May</span><span class="year">2012</span></p>
+                            <h3><a href="article.html" title="Another great article of the blog" class="title">Another great article of the blog</a></h3>
+                            <p class="meta">
+                            	<span class="comments"><a href="article.html#comments" title="Comment on Another great article of the blog">2 comments</a></span><br />
+                            	<a href="article.html" class="read-more"></a>
+                            </p>
+                        </div>
+                        
+                        <div class="hentry-post group">
+                            <p class="post-date"><span class="day">30</span><span class="month">April</span><span class="year">2012</span></p>
+                            <h3><a href="article.html" title="Fall in Love with M&egrave;mento theme!" class="title">Fall in Love with Mèmento theme!</a></h3>
+                            <p class="meta">
+                            	<span class="comments"><a href="article.html#respond" title="Comment on Fall in Love with M&egrave;mento theme!">No comments</a></span><br />
+                            	<a href="article.html" class="read-more"></a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="widget widget_nav_menu">
+                    <h3>Custom menu</h3>
+                    <div class="menu-footer-menu-container">
+                        <ul id="menu-footer-menu" class="menu">
+                            <li class="columns2"><a href="#">Blog</a></li>
+                            <li class="columns2"><a href="features.html">Features</a></li>
+                            <li class="columns2"><a href="#">Pages</a></li>
+                            <li class="columns2"><a href="contact.html">Contact</a></li>
+                            <li class="columns2"><a href="testimonials.html">Testimonials</a></li>
+                            <li class="columns2"><a href="portfolio.html">Portfolio</a></li>
+                            <li class="columns2"><a href="#">Sliders</a></li>
+                            <li class="columns2"><a href="#">Web design blog</a></li>
+                            <li class="columns2"><a href="#">Support forum</a></li>
+                            <li class="columns2"><a href="#">Di&#8217;verso theme</a></li>
+                            <li class="columns2"><a href="#">Sommerce theme</a></li>
+                            <li class="columns2"><a href="#">Impero theme</a></li>
+                            <li class="columns2"><a href="#">Kassyopea theme</a></li>
+                            <li class="columns2"><a href="#">Maya theme</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="quick-contact-widget widget two-third last">
+                    <div class="widget-last widget quick-contact">
+                        <h3>Quick Contact</h3>
+                        <form id="contact-form-example" class="contact-form" method="post" action="sendmail.php" enctype="multipart/form-data">
+                            <div class="usermessagea"></div>
+                            <fieldset>
+                                <ul>
+                                    <li class="text-field">
+                                        <label for="name-example">
+                                        <span class="label">Name</span>
+                                        </label>
+                                        <div class="input-prepend"><span class="add-on"><i class="icon-user"></i></span><input type="text" name="name" id="name-example" class="required" value="" /></div>
+                                        <div class="msg-error"></div>
+                                    </li>
+                                    <li class="text-field">
+                                        <label for="email-example">
+                                        <span class="label">Email</span>
+                                        </label>
+                                        <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span><input type="text" name="email" id="email-example" class="required email-validate" value="" /></div>
+                                        <div class="msg-error"></div>
+                                    </li>
+                                    <li class="textarea-field">
+                                        <label for="message-example">
+                                        <span class="label">Message</span>
+                                        </label>
+                                        <div class="input-prepend"><span class="add-on"><i class="icon-pencil"></i></span><textarea name="message" id="message-example" rows="8" cols="30" class="required"></textarea></div>
+                                        <div class="msg-error"></div>
+                                    </li>
+                                    <li class="submit-button">
+                                        <input type="text" name="yiw_bot" id="yiw_bot" />
+                                        <input type="hidden" name="action" value="sendemail" id="action" />
+                                        <input type="hidden" name="yiw_referer" value="#" />
+                                        <input type="hidden" name="id_form" value="footer" />
+                                        <input type="submit" name="yiw_sendemail" value="send message" class="sendmail alignright" />			
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </form>
+                        <script type="text/javascript">
+                            var messages_form_footer = {
+                            	name: "Insert your name",
+                            	email: "Insert your email",
+                            	message: "Insert your message"
+                            };
+                        </script>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- START FOOTER -->
+        <div id="copyright" class="group">
+            <div class="inner group">
+                <div class="left">
+                    <p>
+                    	Copyright <a href="http://demo.yithemes.com/memento"><strong>Mem[é]nto</strong></a> 2012 -
+                    	Powered by <a href="http://yithemes.com" title="Free HTML Template"><strong>Your Inspiration Themes</strong></a>
+                    </p>
+                </div>
+                <div class="right">
+                    <a href="#" class="socials facebook" style="font-size:30px;" title="Facebook">F</a>
+                    <a href="#" class="socials twitter" style="font-size:30px;" title="Twitter">L</a>
+                    <a href="#" class="socials skype" style="font-size:30px;" title="Skype">H</a>
+                    <a href="#" class="socials google" style="font-size:30px;" title="Google">G</a>
+                    <a href="#" class="socials linkedin" style="font-size:30px;" title="Linkedin">I</a>
+                    <a href="#" class="socials rss" style="font-size:30px;" title="Rss">R</a>
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/jquery.custom.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36516261-21']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+    // Get the modal
+    
+    
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    
+    </body>
+</html>
